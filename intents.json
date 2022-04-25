@@ -11,6 +11,10 @@
      "patterns": ["Bye", "See you later", "Goodbye"],
      "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
     },
+     {"tag": "vaccine",
+     "patterns": ["Can I get vaccinated ?", "Who can get vaccinated", "Is vaccination available for everyone","vaccine","vaccination"],
+     "responses": ["anybody aged 16 or over in the UK is eligible for a free COVID-19 vaccination, regardless of their nationality or immigration status. We are strongly encouraging our students to receive their COVID-19 vaccination as soon as possible. The NHS website has more information about vaccinations for students in higher education."]
+    },
     {"tag": "covid entry requirements",
      "patterns": ["Are there any entry requirements related to covid?","entry requirements","entering the uk"],
      "responses": ["You can check the requirements to enter the UK on the UK Government website"]
@@ -53,11 +57,11 @@
     },
     {"tag": "about",
      "patterns": ["Who are you?", "What are you?", "Who you are?" ],
-     "responses": ["I.m Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"]
+     "responses": ["I.m Ismali, your bot assistant", "I'm Ismali, an Artificial Intelligent bot"]
     },
     {"tag": "name",
     "patterns": ["what is your name", "what should I call you", "whats your name?"],
-    "responses": ["You can call me Joana.", "I'm Joana!", "Just call me as Joana"]
+    "responses": ["You can call me Ismali.", "I'm Ismali!", "Just call me as Ismali"]
     },
     {"tag": "help",
     "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
